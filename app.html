@@ -1,14 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOUTA ABE -APP </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MINO — APP</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <h3>app page</h3>
-    <footer id="contact" class="site-footer">
-    <p>© SOUTA ABE 2025</p>
+  <header class="site-header">
+    <div class="brand">SOUTA ABE</div>
+    <nav class="main-nav">
+      <a href="index.html">TOP</a>
+      <a href="works.html">WORKS</a>
+      <a href="design.html">DESIGN</a>
+      <a href="app.html" class="active">APP</a>
+      <a href="about.html">BIO</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <main class="works-page">
+    <section class="page-header">
+      <h1>APP DEVELOPMENT</h1>
+      <p>アプリ・インタラクティブ体験・Web技術を用いた実験。</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <img src="images/app1.jpg" alt="App project thumbnail">
+        <div class="card-body">
+          <h3>AR Visualizer</h3>
+          <p>スマホのジャイロを用いたWebAR体験。</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/app2.jpg" alt="App project thumbnail">
+        <div class="card-body">
+          <h3>Touch Interface Tool</h3>
+          <p>TouchDesigner + Arduinoによるリアルタイム演出アプリ。</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© MINO 2025</p>
   </footer>
 </body>
 </html>

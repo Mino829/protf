@@ -3,49 +3,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SOUTA ABE -WORKS </title>
+  <title>MINO — WORKS</title>
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
 </head>
 <body>
+  <!-- ===== HEADER ===== -->
   <header class="site-header">
-    <div class="brand">MINO</div>
+    <div class="brand">SOUTA ABE</div>
     <nav class="main-nav">
       <a href="index.html">TOP</a>
       <a href="works.html" class="active">WORKS</a>
+      <a href="design.html">DESIGN</a>
+      <a href="app.html">APP</a>
       <a href="about.html">BIO</a>
       <a href="contact.html">CONTACT</a>
     </nav>
   </header>
 
+  <!-- ===== MAIN CONTENT ===== -->
   <main class="works-page">
+    <!-- ページ見出し -->
     <section class="page-header">
       <h1>WORKS</h1>
       <p>映像・VJ・インタラクティブ作品のアーカイブ。</p>
     </section>
 
+    <!-- 作品カード一覧 -->
     <section class="cards">
       <article class="card">
-        <img src="images/作品1.png" alt="">
-        <a href="project/project1.html"
-        <h3>Project A</h3>
-        <p>Blender × TouchDesigner</p>
+        <a href="project/project1.html" class="card-link">
+          <img src="images/作品1.png" alt="Project Aのサムネイル画像">
+          <div class="card-body">
+            <h3>Project A</h3>
+            <p>Blender × TouchDesigner</p>
+          </div>
+        </a>
       </article>
+
       <article class="card">
-        <img src="images/thumb2.jpg" alt="">
-        <h3>Project B</h3>
-        <p>Interactive Installation</p>
+        <a href="project/project2.html" class="card-link">
+          <img src="images/life is2.png" alt="Project Bのサムネイル画像">
+          <div class="card-body">
+            <h3>Project B</h3>
+            <p>Interactive Installation</p>
+          </div>
+        </a>
       </article>
+
       <article class="card">
-        <img src="images/thumb3.jpg" alt="">
-        <h3>Project C</h3>
-        <p>Music Video Direction</p>
+        <a href="project/project3.html" class="card-link">
+          <img src="images/thumb3.jpg" alt="Project Cのサムネイル画像">
+          <div class="card-body">
+            <h3>Project C</h3>
+            <p>Music Video Direction</p>
+          </div>
+        </a>
       </article>
     </section>
   </main>
 
+  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
-    <p>© SOUTA ABE 2025 </p>
+    <p>© MINO 2025</p>
   </footer>
 </body>
 </html>
