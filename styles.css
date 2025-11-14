@@ -256,19 +256,28 @@ body {
   }
 }
 
-/* スマホ小 */
+/* ============================
+    スマホ最適化（480px 以下）
+============================ */
 @media screen and (max-width: 480px) {
 
   .site-header {
-    padding: 14px 5vw;
-    gap: 12px;
+    flex-direction: column;
+    padding: 10px 4vw;     /* 余白をさらに縮める */
+    gap: 10px;
+  }
+
+  .brand {
+    font-size: 1.1rem;     /* 横幅節約 */
   }
 
   .main-nav {
+    flex-wrap: wrap;        /* これが一番重要！ */
     gap: 12px;
+    justify-content: center;
   }
 
-  .hero-item img {
-    height: 220px;
+  .main-nav a {
+    font-size: 0.85rem;     /* はみ出し防止の調整 */
   }
 }
